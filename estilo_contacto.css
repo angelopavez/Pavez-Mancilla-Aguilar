@@ -5,10 +5,12 @@
 }
 body{
 	font-family: 'Open Sans';
+	background-color: orange;
+	opacity: 0.6;
 }
 
 header{
-	background-color: #f2f2f2;
+	background-color: #ffee00;
 	text-align: center;
 	padding: 25px;
 }
@@ -26,8 +28,8 @@ nav a:hover {
 	color: #fff;
 }
 .encabezado{
-	background-image: url(IMG/img2.png);
-	background-size: cover;
+	background-color: orange;
+
 	height: 130px;
 	display: flex;
 	flex-direction: column;
@@ -62,4 +64,16 @@ form {
 }
 
 
+
+header{
+	background-color: yellow;
+
+}
+footer{
+background-color: yellow;
+}	
+
+#caja2{
+	background-color: rgb(136, 66, 0);
+}
 
