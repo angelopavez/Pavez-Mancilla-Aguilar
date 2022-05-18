@@ -71,6 +71,8 @@ header{
 }
 footer{
 background-color: yellow;
+left: 900px;
+top: 900px;
 }	
 
 #caja2{
