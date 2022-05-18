@@ -5,12 +5,19 @@
 }
 body{
 	font-family: 'Open Sans';
+    opacity: 0.6;
+    background-color: rgb(255, 165, 0);
+    text-align: center;
 }
-
+aside{
+    background-color: brown;
+    float: left;
+    text-align: left;
+}
 header{
-	background-color: #f2f2f2;
 	text-align: center;
 	padding: 25px;
+    background-color: yellow;
 }
 nav a{
 	display: inline-block;
@@ -20,13 +27,14 @@ nav a{
 	padding: 5px 15px;
 	border-radius: 30px;
 	font-size: 18px;
+    background-color: rgb(255, 255, 0);
 }
 nav a:hover {
-	background-color: #000;
+	background-color: rgb(255, 255, 0);
 	color: #fff;
 }
 .encabezado{
-	background-image: url(IMG/img2.png);
+    background-color: rgb(255, 165, 0); 
 	height: 160px;
 	display: flex;
 	flex-direction: column;
@@ -40,5 +48,38 @@ nav a:hover {
 .encabezado h1{
 	font-size: 50px;
 	padding: 15px 0;
+
+}
+.cuerpo{
+    width: 700px;
+    height: 700px;
+    background: orange;
+    position: fixed;
+    left: 700px;
+    top: 400px;
+}    
+.panel{
+    width: 200px;
+    height: 200px;
+    background: brown;
+    position: fixed;
+    left: 0;
+    top: 300px;
+}
+.fondo{
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    position: fixed;
+    left: 900px;
+    top: 900px;
+}
+.cabeza{
+    width: 500px;
+    height: 250px;
+    background: orange;
+    position: fixed;
+    left: 700px;
+    top: 0px;
 
 }
